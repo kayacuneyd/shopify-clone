@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section -->
+      <div id="header">
+        <div class="logo">
+          <svg
+            class="site-logo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="120"
+            height="60"
+          >
+            <path
+              d="M37.072 19.164a.35.35 0 0 0-.313-.293c-.125-.02-2.87-.21-2.87-.21l-2.093-2.093c-.188-.21-.606-.148-.764-.104-.02 0-.418.125-1.067.336-.632-1.826-1.75-3.502-3.718-3.502h-.168c-.565-.73-1.255-1.067-1.84-1.067-4.584.02-6.77 5.738-7.46 8.66l-3.204.983c-.983.313-1.02.336-1.15 1.273L9.724 43.98l20.248 3.79 10.974-2.366c0-.02-3.853-26.04-3.873-26.238zm-8.23-2.012c-.51.168-1.1.336-1.716.525V17.3c.02-.942-.123-1.88-.418-2.776 1.026.158 1.716 1.31 2.134 2.628zm-3.37-2.386c.335.987.5 2.027.458 3.07v.188l-3.54 1.1c.693-2.587 1.97-3.866 3.08-4.347zm-1.36-1.273c.21.005.413.07.586.188-1.477.688-3.038 2.424-3.708 5.9l-2.8.858c.79-2.638 2.633-6.952 5.92-6.952z"
+              fill="#95bf47"
+            />
+            <path
+              d="M36.76 18.87c-.125-.02-2.87-.21-2.87-.21l-2.093-2.093c-.077-.08-.182-.124-.293-.125l-1.528 31.324 10.974-2.366-3.876-26.218c-.026-.16-.152-.288-.313-.313z"
+              fill="#5e8e3e"
+            />
+            <path
+              d="M26.246 24.942l-1.362 4.02c-.823-.4-1.724-.613-2.638-.63-2.137 0-2.24 1.34-2.24 1.676 0 1.83 4.795 2.534 4.795 6.848 0 3.392-2.157 5.57-5.047 5.57-3.476 0-5.256-2.157-5.256-2.157l.924-3.08s1.82 1.57 3.372 1.57a1.37 1.37 0 0 0 1.424-1.383c0-2.41-3.937-2.514-3.937-6.45 0-3.31 2.386-6.535 7.182-6.535 1.885.028 2.786.55 2.786.55z"
+              fill="#fff"
+            />
+            <path
+              d="M50.474 30.93c-.783-.42-1.188-.783-1.188-1.28 0-.63.55-1.037 1.443-1.037a5.12 5.12 0 0 1 1.925.421l.722-2.194s-.662-.512-2.602-.512c-2.706 0-4.586 1.55-4.586 3.728 0 1.232.872 2.18 2.044 2.856.947.55 1.28.914 1.28 1.488s-.466 1.053-1.353 1.053c-1.307 0-2.54-.676-2.54-.676l-.766 2.194s1.143.766 3.052.766c2.78 0 4.78-1.368 4.78-3.84.015-1.338-.993-2.27-2.2-2.977zm11.094-4.615c-1.368 0-2.45.647-3.278 1.646l-.046-.015 1.188-6.216h-3.095L53.33 37.56h3.097l1.037-5.412c.406-2.044 1.463-3.308 2.45-3.308.69 0 .962.466.962 1.143 0 .46-.046.917-.135 1.368l-1.172 6.194h3.097l1.218-6.4c.133-.663.21-1.336.225-2.01-.015-1.744-.932-2.796-2.54-2.796zm9.53 0c-3.728 0-6.194 3.368-6.194 7.1 0 2.406 1.488 4.33 4.27 4.33 3.657 0 6.134-3.278 6.134-7.1 0-2.225-1.307-4.33-4.205-4.33zm-1.52 9.065c-1.053 0-1.503-.9-1.503-2.01 0-1.774.914-4.675 2.602-4.675 1.097 0 1.463.947 1.463 1.865-.004 1.905-.92 4.82-2.56 4.82zm13.65-9.065c-2.1 0-3.278 1.828-3.278 1.828h-.046l.183-1.646h-2.743l-.63 4.105-2.15 11.336h3.083l.858-4.586h.06s.63.406 1.82.406c3.638 0 6.013-3.728 6.013-7.496.015-2.075-.914-3.938-3.172-3.938zm-2.962 9.11a1.93 1.93 0 0 1-1.28-.452l.512-2.902c.366-1.925 1.368-3.218 2.45-3.218.947 0 1.232.872 1.232 1.7.005 2.017-1.18 4.873-2.91 4.873zm10.57-13.56c-.474-.003-.93.185-1.263.522s-.518.794-.5 1.268c0 .914.587 1.55 1.463 1.55h.046a1.75 1.75 0 0 0 1.819-1.79c0-.9-.602-1.55-1.55-1.55zM86.51 37.53h3.097l2.104-10.97h-3.108m11-.015H97.44l.106-.512c.183-1.053.812-2 1.828-2a3.37 3.37 0 0 1 .993.15l.598-2.423s-.55-.27-1.684-.27a4.63 4.63 0 0 0-3.037 1.037c-1.053.9-1.55 2.194-1.8 3.503l-.1.512h-1.443l-.452 2.33h1.443l-1.646 8.66h3.108l1.646-8.66h2.136l.42-2.33zm7.458.015l-2.812 7.547h-.046l-.766-7.547h-3.264l1.865 10.072a.71.71 0 0 1-.06.512c-.405.747-.982 1.386-1.684 1.865-.538.37-1.125.664-1.744.872l.858 2.63a7.1 7.1 0 0 0 3.031-1.689c1.413-1.324 2.72-3.368 4.06-6.15l3.788-8.118h-3.227z"
+              fill="#fff"
+            />
+          </svg>
+        </div>
+        <div class="header__down">
+          <div class="newsletter">
+            <div class="newsletter-up">
+              <h1 class="heading-big">Sell online with Shopify</h1>
+              <p class="heading-middle">
+                Trusted by millions of businesses worldwide
+              </p>
+            </div>
+            <div class="newsletter-down">
+              <div class="newsletter-core">
+                <form id="newsletter-form">
+                  <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    name="email-input"
+                    id="email-input"
+                  />
+                  <button class="form-btn" type="submit">Start Free Trial</button>
+                </form>
+              </div>
+              <div class="text-wrapper">
+                <p class="text-minor">
+                  Try Shopify free for 14 days, no credit card required. By
+                  entering your email, you agree to receive marketing emails
+                  from Shopify.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="marketing-img">
+          <img
+            src="https://cdn.shopify.com/shopifycloud/brochure/assets/landers/short-lander/free-trial/storefront-illustration@mobile-cd49a37e1e5e153e43ca57891bd3f327ff19f1fe139517ad4fbcf2d83388ae23.png"
+            alt="marketing img"
+            style="width: 270px"
+          />
+        </div>
+      </div>
+
+      <!-- End of Header Section -->
+
+      <!-- Cards Section -->
+      <div id="cards">
+        <div class="card-item item-1">
+          <div class="card-wrapper">
+            <i class="material-icons" style="font-size: 48px; color: green"
+              >tablet</i
+            >
+            <h2>Customizable templates</h2>
+            <p>Free website designs to launch your store quickly and easily.</p>
+          </div>
+        </div>
+        <div class="card-item item-2">
+          <div class="card-wrapper">
+            <i class="material-icons" style="font-size: 48px; color: green"
+              >aspect_ratio</i
+            >
+            <h2>All in one</h2>
+            <p>
+              Shopify takes care of everything from marketing and payments to
+              secure transactions and shipping.
+            </p>
+          </div>
+        </div>
+        <div class="card-item item-3">
+          <div class="card-wrapper">
+            <i class="material-icons" style="font-size: 48px; color: green"
+              >people</i
+            >
+            <h2>A safe and efficient platform</h2>
+            <p>
+              Millions of users trust Shopify to manage their online stores.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- End of the Cards Section -->
+
+      <!-- Referance Section -->
+      <div id="referances">
+        <ul class="logo-soup">
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image lazyloaded"
+              alt="Cee Cee's Closet"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x
+                "
+                alt="Cee Cee&#39;s Closet"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Nalata Nalata"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-eb37541ed2129ac52e1a6f45dff78a2689c78064d20f0d9b5605f8b4ed9d644f.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-eb37541ed2129ac52e1a6f45dff78a2689c78064d20f0d9b5605f8b4ed9d644f.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-eb37541ed2129ac52e1a6f45dff78a2689c78064d20f0d9b5605f8b4ed9d644f.png?quality=50 2x
+                "
+                alt="Nalata Nalata"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Kirrin Finch"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x
+                "
+                alt="Kirrin Finch"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Tokyo Bike"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x
+                "
+                alt="Tokyo Bike"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Meso Goods"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x
+                "
+                alt="Meso Goods"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Coco and Breezy"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x
+                "
+                alt="Coco and Breezy"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Brooklyn Museum"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x
+                "
+                alt="Brooklyn Museum"
+                class="image"
+            /></noscript>
+          </li>
+          <li class="logo-soup__list-item">
+            <img
+              class="image logo-soup__image ls-is-cached lazyloaded"
+              alt="Adore Me"
+              data-sizes="100vw"
+              data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x"
+              sizes="100vw"
+              srcset="
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png            1x,
+                https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x
+              "
+            /><noscript
+              ><img
+                sizes="100vw"
+                srcset="
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png            1x,
+                  https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x
+                "
+                alt="Adore Me"
+                class="image"
+            /></noscript>
+          </li>
+        </ul>
+      </div>
+
+      <!-- The end of the Referance Section -->
+
+
+      <div id="call-to-action">
+        <div class="cta-wrapper">
+          <blockquote class="text-center">
+            <div class="heading--3"><div class="long-form-content "><p>“Shopify is better than any other platform we’ve played with, and we’ve played with them all.”</p>
+            </div></div>
+            <cite class="free-trial__citation">Jonathon Bayme, CEO of Theory11</cite>
+          </blockquote>
+          <div class="cta-btn">
+            <button class="form-btn bg-green" type="submit">Start Free Trial</button>
+          </div>
+        </div>
+      </div>
+      <!-- The ene of the call to action Section-->
+      <footer>
+        <div class="footer-wrapper">
+          <a class="footer-link" href="#">Terms of Service</a>
+          <a class="footer-link" href="#">Privacy Policy</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
